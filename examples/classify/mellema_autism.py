@@ -189,7 +189,7 @@ y_test =  df["participants_asd"].values.squeeze()
 
 manager = DataManager.from_numpy(
         test_inputs=x_test, test_labels=y_test,
-        batch_size=10)
+        batch_size=64)
     
 #~ manager = DataManager(
     #~ input_path=data.input_path,
