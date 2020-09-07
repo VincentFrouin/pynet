@@ -31,6 +31,7 @@ from .genomic import fetch_genomic_pred
 from .registration import fetch_registration
 from .ukb import fetch_height_biobank
 from .impac import fetch_impac
+from .mellema import fetch_mellema
 from .connectome import fetch_connectome
 
 
